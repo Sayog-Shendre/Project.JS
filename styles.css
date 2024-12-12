@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Editor {
+  width: 800px;
+  height: 600px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.Editor .DraftEditor-root {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block {
+  margin-bottom: 20px;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block .public-DraftStyleDefault-ltr {
+  text-align: left;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block .public-DraftStyleDefault-rtl {
+  text-align: right;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block .public-DraftStyleDefault-pre {
+  white-space: pre-wrap;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block .public-DraftStyleDefault-code {
+  font-family: monospace;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block .public-DraftStyleDefault-bold {
+  font-weight: bold;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block .public-DraftStyleDefault-italic {
+  font-style: italic;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block .public-DraftStyleDefault-underline {
+  text-decoration: underline;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block .public-DraftStyleDefault-strikethrough {
+  text-decoration: line-through;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block .public-DraftStyleDefault-red {
+  color: red;
+}
+
+.Editor .DraftEditor-root .public-DraftEditor-content .public-DraftStyleDefault-block .public-DraftStyleDefault-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
